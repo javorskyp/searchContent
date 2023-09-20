@@ -1,5 +1,18 @@
 import React from 'react'
 import { BiTimeFive } from 'react-icons/bi'
+import logo1 from '../../src/assets/logo1.png'
+
+const Data = [{
+    id: 1,
+    image: logo1,
+    title: 'Web Developer',
+    time: 'Now',
+    location: 'Canada',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus recusandae dolorem labore!',
+    company: 'Netguru'
+}
+]
+
 const Jobs = () => {
     return (
     <div>
@@ -15,7 +28,10 @@ const Jobs = () => {
                 <p className='text-[13px] text-[#95959] pt-[20px] border-t-[2px] mt-[20px] group-hover:text-white'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus recusandae dolorem labore!</p>
                 <div className='company flex items-center gap-2'>
-                   
+                    <img src={logo1} alt='Company Logo' className='w-[100px] rounded-[10px]'/>
+                    <button className='border-[2px] rounded-[10px] block p-[4px] h-[32px] w-full text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textColor group-hover:text-white'>
+                        Apply Now
+                    </button>
                 </div>
             </div>
         </div>
