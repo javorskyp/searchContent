@@ -1,8 +1,8 @@
 import React from 'react'
 import { BiTimeFive } from 'react-icons/bi'
 import logo1 from '../assets/logo1.png'
-import logo2 from '../assets/logo2.svg'
-import logo3 from '../assets/logo3.svg'
+import logo2 from '../assets/logo2.png'
+import logo3 from '../assets/logo3.png'
 
 const Data = [
 {
@@ -87,12 +87,11 @@ const Jobs = () => {
                     <h6 className='text-[#ccc]'>{location}</h6>
                     <p className='text-[13px] text-[#95959] pt-[20px] border-t-[2px] mt-[20px] group-hover:text-white'>{desc}</p>
                     <div className='company flex items-center gap-2'>
-                        <img src={image} alt='Company Logo' className='w-[10px]'/>
-                        <span className='text-[14px] py-[1rem] block group-hover:text-white'>{company}</span>
-                        <button className='border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textColor group-hover:text-white'>
+                        <img src={image} alt='Company Logo' className='w-[100px]'/>
+                        <span className='text-[14px] py-[1rem] block group-hover:text-white'>{company}</span></div>
+                        <button className='border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textColor group-hover:text-black'>
                             Apply Now
                         </button>
-                    </div>
                     </div>
                    )
                })
