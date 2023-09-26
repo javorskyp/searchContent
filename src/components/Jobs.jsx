@@ -16,7 +16,25 @@ const Data = [
 },
 {
     id: 2,
-    image: logo2,
+    image: logo3,
+    title: 'Senior Frontend Developer',
+    time: 'Now',
+    location: 'Lublin',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus recusandae dolorem labore!',
+    company: 'Netguru'
+},
+{
+    id: 3,
+    image: logo1,
+    title: 'Game Developer',
+    time: 'Now',
+    location: 'Warszawa',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus recusandae dolorem labore!',
+    company: 'Room 8 Studio'
+},
+{
+    id: 2,
+    image: logo3,
     title: 'Senior Frontend Developer',
     time: 'Now',
     location: 'Lublin',
@@ -34,12 +52,21 @@ const Data = [
 },
 {
     id: 2,
-    image: logo2,
+    image: logo1,
     title: 'Senior Frontend Developer',
     time: 'Now',
     location: 'Lublin',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus recusandae dolorem labore!',
     company: 'Netguru'
+},
+{
+    id: 3,
+    image: logo3,
+    title: 'Game Developer',
+    time: 'Now',
+    location: 'Warszawa',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus recusandae dolorem labore!',
+    company: 'Room 8 Studio'
 },
 {
     id: 3,
@@ -52,7 +79,7 @@ const Data = [
 },
 {
     id: 2,
-    image: logo2,
+    image: logo1,
     title: 'Senior Frontend Developer',
     time: 'Now',
     location: 'Lublin',
@@ -68,6 +95,42 @@ const Data = [
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus recusandae dolorem labore!',
     company: 'Room 8 Studio'
 },
+{
+    id: 3,
+    image: logo3,
+    title: 'Game Developer',
+    time: 'Now',
+    location: 'Warszawa',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus recusandae dolorem labore!',
+    company: 'Room 8 Studio'
+},
+{
+    id: 2,
+    image: logo1,
+    title: 'Senior Frontend Developer',
+    time: 'Now',
+    location: 'Lublin',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus recusandae dolorem labore!',
+    company: 'Netguru'
+},
+{
+    id: 3,
+    image: logo3,
+    title: 'Game Developer',
+    time: 'Now',
+    location: 'Warszawa',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus recusandae dolorem labore!',
+    company: 'Room 8 Studio'
+},
+{
+    id: 3,
+    image: logo3,
+    title: 'Game Developer',
+    time: 'Now',
+    location: 'Warszawa',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus recusandae dolorem labore!',
+    company: 'Room 8 Studio'
+}
 ]
 
 const Jobs = () => {
@@ -87,7 +150,7 @@ const Jobs = () => {
                     <h6 className='text-[#ccc]'>{location}</h6>
                     <p className='text-[13px] text-[#95959] pt-[20px] border-t-[2px] mt-[20px] group-hover:text-white'>{desc}</p>
                     <div className='company flex items-center gap-2'>
-                        <img src={image} alt='Company Logo' className='w-[100px]'/>
+                        <img src={image} alt='Company Logo' className='m-[10px] w-[100px]'/>
                         <span className='text-[14px] py-[1rem] block group-hover:text-white'>{company}</span></div>
                         <button className='border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textColor group-hover:text-black'>
                             Apply Now
