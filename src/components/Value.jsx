@@ -1,5 +1,5 @@
 import React from 'react'
-import simple from '../assets/simple.jpg'
+import simple from '../assets/Google.png'
 
 const Value = () => {
     return (
@@ -8,6 +8,7 @@ const Value = () => {
                 The value that holds us true and to account
             </h1>
             <div className='grid gap-[10rem] grid-cols-3 items-center'>
+
                 <div className='singleGrid rounded-[10px] hover:bg-[#eeedf7] p-[1.5rem]'>
                     <div className='flex items-center gap-3'>
                         <div className='imgDiv p-[4px] rounded-[.8rem] bg-[#dedef8] h-[40px] w-[40px] flex items-center justify-center'>
@@ -16,6 +17,36 @@ const Value = () => {
 
                         <span className='font-semibold text-textColor text-[18px]'>
                             Simplicity
+                        </span>
+                    </div>
+                    <p className='text-[13px] text-textColor opacity-[.7] py-[1rem] font-semibold'>
+                        Things beinf made beautiful simple are at the heart of everything we do.
+                    </p>
+                </div>
+
+                <div className='singleGrid rounded-[10px] hover:bg-[#eeedf7] p-[1.5rem]'>
+                    <div className='flex items-center gap-3'>
+                        <div className='imgDiv p-[4px] rounded-[.8rem] bg-[#dedef8] h-[40px] w-[40px] flex items-center justify-center'>
+                            <img src="simple" alt className='w-[70%]'/>
+                        </div>
+
+                        <span className='font-semibold text-textColor text-[18px]'>
+                            Enormicity
+                        </span>
+                    </div>
+                    <p className='text-[13px] text-textColor opacity-[.7] py-[1rem] font-semibold'>
+                        Things beinf made beautiful simple are at the heart of everything we do.
+                    </p>
+                </div>
+
+                <div className='singleGrid rounded-[10px] hover:bg-[#eeedf7] p-[1.5rem]'>
+                    <div className='flex items-center gap-3'>
+                        <div className='imgDiv p-[4px] rounded-[.8rem] bg-[#dedef8] h-[40px] w-[40px] flex items-center justify-center'>
+                            <img src="simple" alt className='w-[70%]'/>
+                        </div>
+
+                        <span className='font-semibold text-textColor text-[18px]'>
+                            Lowlycity
                         </span>
                     </div>
                     <p className='text-[13px] text-textColor opacity-[.7] py-[1rem] font-semibold'>
